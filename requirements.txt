@@ -1,0 +1,8 @@
+opencv-python
+mediapipe==0.10.14
+ultralytics
+numpy
+Flask
+web3
+pyserial
+openai

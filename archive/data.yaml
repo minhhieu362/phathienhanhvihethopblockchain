@@ -1,0 +1,18 @@
+path: archive
+train: images/train
+val: images/val
+
+# Existing label files contain class ids 0..7. Verify the semantic mapping of
+# ids 5..7 against your annotation tool before retraining. If this mapping is
+# wrong, YOLO will learn the wrong behavior and realtime detection will look
+# random.
+names:
+  0: Sleeping
+  1: Using Phone
+  2: Distracted
+  3: Left Seat
+  4: Background
+  5: Raised Hand
+  6: Standing Up
+  7: Other
+

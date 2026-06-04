@@ -1,0 +1,10 @@
+path: Classroom Behavior.v1i.yolov11
+train: valid/images
+val: test/images
+test: test/images
+
+nc: 3
+names:
+  0: Eating
+  1: Sleeping
+  2: Usingmobile

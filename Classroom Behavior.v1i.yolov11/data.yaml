@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Eating', 'Sleeping', 'Usingmobile']
+
+roboflow:
+  workspace: taiwo4real007-gmail-com
+  project: classroom-behavior-l2odn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/taiwo4real007-gmail-com/classroom-behavior-l2odn/dataset/1
